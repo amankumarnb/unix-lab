@@ -1,0 +1,87 @@
+unix lab
+grep commands
+ 
+"cat > test" to create a file
+
+write a shell script to display         
+write a Shell Script to check
+write a shell script to compare 
+unix Shell script 
+unix lab
+lab session - 1 
+
+syntax : grep -option "word" test
+
+  -V, --version
+              Output the version number of grep and exit.
+
+   
+   -E, --extended-regexp
+             
+
+       -F, --fixed-strings
+              
+
+       -G, --basic-regexp
+             
+
+       -P, --perl-regexp
+             Matching Control
+
+       -e PATTERN, --regexp=PATTERN
+              Use  PATTERN  as the pattern.
+  
+       -f FILE, --file=FILE
+              Obtain patterns from FILE, one per line.
+
+       -i, --ignore-case
+              Ignore case distinctions
+
+       -v, --invert-match
+              Invert the sense of matching, to select non-matching lines.
+
+       -w, --word-regexp
+              Select  only  those  lines  containing matches that form whole words. 
+       -x, --line-regexp
+              Select  only  those  matches  that  exactly match the whole line.
+       -y     Obsolete synonym for -i.
+
+-c to count 
+
+grep -c "lab" test
+2
+
+-v to print all the other line
+
+ grep -v "script" test
+write a Shell Script to check
+unix lab
+lab session - 1 
+
+ -i print both the upper case and lower case
+
+ grep -i "script" test
+write a shell script to display
+write a Shell Script to check
+write a shell script to compare 
+unix Shell script 
+
+grep -y "shell" test 
+write a shell script to display
+write a Shell Script to check
+write a shell script to compare 
+unix Shell script 
+
+ grep -c "l" test
+6
+
+grep -G "write" test
+write a shell script to display
+write a Shell Script to check
+write a shell script to compare 
+
+grep -F "write" test
+write a shell script to display
+write a Shell Script to check
+write a shell script to compare 
+

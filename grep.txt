@@ -83,5 +83,17 @@ write a shell script to compare
 grep -F "write" test
 write a shell script to display
 write a Shell Script to check
-write a shell script to compare 
+write a shell script to compare
+
+character* -display 0 or more matches.
+
+character+ -display one or more matches.
+
+character? -display 0 or 1 match.
+
+.* -none or anything.
+
+^character -display the bits starting with the mentioned letter.
+
+character$ -display the bits ending with the mentioned letter.
 

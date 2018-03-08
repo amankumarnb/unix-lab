@@ -1,0 +1,39 @@
+
+SED COMMANDS
+
+sed -n '1,2p' filename
+To print lines from 1 to 2
+
+sed -n '$p' filename
+To print last line
+
+sed -n -e '1,3p' -e '5,8p' filename
+To print selective lines
+
+sed -n '/Student/p' filename
+To print all the lines which contain the word Student
+
+sed 's/k/m/g' filename
+Replaces letter k with m in that file
+
+
+
+grep "unix" filename
+this command is use the search the word unix in the file name.
+
+grep -i "unix" *
+i- prints both upper case and lower case
+*- * means directory
+
+01mar2018aman_labs2.txt:this is my second unix lab session
+grep.txt:unix lab
+grep.txt:unix Shell script 
+grep.txt:unix lab
+grep.txt:unix lab
+grep.txt:unix Shell script 
+grep.txt:unix Shell script 
+test:this is unix lab
+test:unix and shell scripting 
+test1.txt:this is a unix lab
+test1.txt:unix and shell programming
+

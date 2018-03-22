@@ -1,0 +1,42 @@
+grep commands 
+
+cat > file
+
+Aggarwal
+aggarwal
+agrawal
+agarwal
+Agarwal
+Agrawal
+agrwal
+Agrwal
+
+ grep -i "aggarwal" file
+Aggarwal
+aggarwal
+
+grep -e "aggarwal" file
+aggarwal
+
+grep -v "aggarwal" file
+Aggarwal
+agrawal
+agarwal
+Agarwal
+Agrawal
+agrwal
+Agrwal
+
+grep -1 "aggarwal" file
+Aggarwal
+aggarwal
+agrawal
+
+
+grep -P "aggarwal" file
+aggarwal
+
+grep -E "aggarwal" file
+aggarwal
+ 
+

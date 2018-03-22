@@ -1,0 +1,33 @@
+awk commands
+
+
+cat > awk.1st
+
+write a shell script to display         
+write a Shell Script to check
+write a shell script to compare 
+unix Shell script 
+unix lab
+lab session - 1 
+awk command
+
+1. delete all blank lines from a line
+awk -F "|" '!(/ /)' awk.1st
+
+2.print only the odd no of lines
+awk NR%2==1 awk.1st
+
+write a shell script to display         
+write a shell script to compare 
+unix lab
+awk command
+
+3.to print the last field without knowing the no of fields in a line
+awk -F "|" 'END{print}' awk.1st
+awk command
+
+4.head -n 5 filename
+awk -F 'NR==1, NR==5{print}' awk1.lst
+  
+5.sed -n '5,10p' filename
+awk -F "|" 'NR==5,NR==10 {print}' awk1.lst

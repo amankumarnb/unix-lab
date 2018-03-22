@@ -25,7 +25,6 @@ grep -i "unix" *
 i- prints both upper case and lower case
 *- * means directory
 
-01mar2018aman_labs2.txt:this is my second unix lab session
 grep.txt:unix lab
 grep.txt:unix Shell script 
 grep.txt:unix lab

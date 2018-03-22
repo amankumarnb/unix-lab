@@ -52,7 +52,7 @@ DESCRIPTION
        -s, --short
 
 ls
-iftekhar_labs2.txt
+
 LS(1)                                                                      User Commands                                                                      LS(1)
 
 NAME

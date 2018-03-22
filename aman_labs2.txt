@@ -619,6 +619,6 @@ SEE ALSO
        Full documentation at: <http://www.gnu.org/software/coreutils/uname>
        or available locally via: info '(coreutils) uname invocation'
 
-GNU coreutils 8.26                     
+                     
 
 

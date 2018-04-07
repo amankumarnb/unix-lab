@@ -9,5 +9,5 @@ echo" the details of logged in users :\n$details"
  the total number of users logged in : cs2016a104
 # users=1
 ./login.sh: line 4: echo the details of logged in users :\nNAME     LINE         TIME             COMMENT
-cs2016a104 tty2         2018-04-07 08:36 (/dev/tty2): No such file or directory
+cs2016a104 tty2         2018-04-07 08:36 
 

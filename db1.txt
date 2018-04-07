@@ -1,0 +1,48 @@
+To perform data base operations
+
+
+12 shoaib cmru
+13 aalam cmru
+14 harsha cmru
+15 mukul cmru
+
+i="y"
+echo "Enter the name of database"
+read db
+while [ $i = "y" ]
+do
+	echo "1. View the database"
+	echo "2. View specific record"
+	echo "3. Add records"
+	echo "4. Delete record"
+	echo "5. Exit"
+	echo "Enter your choice"
+	read ch
+	case $ch in 
+		1) cat $db;;
+		2) echo "Enter id"
+		   read id
+		      grep -i "$id" $db;;
+		3) echo "Enter new id"
+		   read nid
+		   echo "Enter student's name"
+		   read nname
+		   echo "Enter College name"
+		   read ncname
+		   echo $nid $nname $ncname >> $db;;
+		4) echo "Enter id"
+		   read id
+		   grep -v "$id" $db > db2
+		   echo "Record is deleted"
+		   cat db2;;
+		5) exit;;
+		*) echo "Invalid choice";;
+	esac
+echo "Do you want to continue ?"
+read i
+if [ $i != "y" ]
+then
+	exit
+fi
+done
+
